@@ -45,6 +45,8 @@ Clear Skin
 
 🧠 Tech Stack
 Area	Tools & Libraries
+
+
 Image Processing	OpenCV, NumPy
 Deep Learning	TensorFlow, Keras
 Model	EfficientNetB0 (Transfer Learning)
@@ -53,37 +55,7 @@ Frontend	GRADIO / HTML / CSS
 Backend	Python (Modular Inference Pipeline)
 Evaluation	Accuracy, Loss, Confusion Matrix
 Export	CSV, Annotated Images
-🏗️ Project Architecture
-
-
-DermalScan
-
-│
-├── dataset/
-│   ├── wrinkles/
-│   ├── dark_spots/
-│   ├── puffy_eyes/
-│   └── clear_skin/
-│
-├── preprocessing/
-│   ├── augmentation.py
-│   └── preprocessing.py
-│
-├── model/
-│   ├── train_model.py
-│   └── efficientnet_model.h5
-│
-├── inference/
-│   ├── face_detection.py
-│   └── predict.py
-│
-├── app.py
-├── requirements.txt
-├── README.md
-└── outputs/
-    ├── annotated_images/
-    └── prediction_logs.csv
-
+ 
 🧪 Model Training Details
 
 Input size: 224 × 224
